@@ -1,9 +1,9 @@
 node {
-  stage ('Checkout') {
+  stage ("Checkout") 
 
-    stage 'Build'
+    stage ("Build")
 
-    stage 'Test'
+    stage ("Test")
 
-  }
+  
 }
