@@ -1,18 +1,9 @@
 node {
-        stage('Build') {
+  stage ('Checkout') {
 
-                echo 'Building..'
+    stage 'Build'
 
-        }
-        stage('Test') {
+    stage 'Test'
 
-                echo 'Testing..'
-
-        }
-        stage('Deploy') {
-
-                echo 'Deploying....'
-
-        }
-
+  }
 }
