@@ -18,9 +18,11 @@ pipeline {
                     set M2_HOME
 					set 
                 """)
+				step{
 	pwd
 	bat "DIR"
 	bat "set "
+				}
             }
 	
 	}
