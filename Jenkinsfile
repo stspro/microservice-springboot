@@ -3,25 +3,21 @@ pipeline {
     stages {
          stage('checkout') {
                 steps {
-                 //git  url: 'https://github.com/stspro/devops-springboot'
-              // Get some code from a GitHub repository
+
               bat("""
               
-	 echo"
               git clone https://github.com/stspro/devops-springboot
-              echo "pulled the code"
-              """)
               echo "pulled the code"
               """)
 	}
 	}
 	stage ('Initialize') {
             steps {
-                bat( '''
+                bat( """
                    set PATH
                     set M2_HOME
-	set echo "M2_HOME = ${M2_HOME}"
-                ''')
+					set 
+                """)
 	pwd
 	bat "DIR"
 	bat "set "
