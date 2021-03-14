@@ -2,10 +2,6 @@ node {
 	
 
          stage('checkout') {
-		 environment {
-       env.PATH = env.PATH + ";c:\\Windows\\System32"
-   }
-
 
 
 	}
