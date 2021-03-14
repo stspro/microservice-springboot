@@ -6,6 +6,8 @@ node {
        env.PATH = env.PATH + ";c:\\Windows\\System32"
    }
 
+		 dir
+		 
               bat("""
               
               git clone https://github.com/stspro/devops-springboot
