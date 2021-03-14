@@ -10,7 +10,7 @@ node {
 
 	}
 	stage ('Initialize') {
-pwd
+
 		bat "set PATH"
 		bat "set M2_HOME"
 		bat "	set "
