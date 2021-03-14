@@ -21,7 +21,6 @@ node {
 			set 
 		""")
 
-		pwd
 		bat "DIR"
 		bat "set "
 	}
