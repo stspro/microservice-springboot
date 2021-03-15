@@ -34,6 +34,7 @@ node {
 		   	cd demo
 		    	mvn -D clean install 
 		""")
+		archiveArtifacts artifacts: 'demo\target/*.jar'
 		bat "DIR"
 	//	dir('demo')
 	//	{
