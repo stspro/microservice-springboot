@@ -27,8 +27,18 @@ node {
 		bat "set "
 	}
         stage('Build') { 
-
-		bat 'mvn -D clean install '
+		bat 'cd demo'
+		bat "DIR"
+		//bat 'mvn -D clean install '
+		bat( """
+		   	cd demo
+		    	mvn -D clean install 
+		""")
+		bat "DIR"
+	//	dir('demo')
+	//	{
+	//		bat 'mvn -D clean install '
+	//	}
                 
 
         }
